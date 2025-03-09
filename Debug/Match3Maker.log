@@ -1,0 +1,3 @@
+﻿  Match3Maker.cpp
+c:\projekty\match3maker\match3maker.cpp(1121): warning C4101: "in": lokalna zmienna, do której nie istnieje odwołanie
+  Match3Maker.vcxproj -> C:\Projekty\Match3Maker\Debug\Match3Maker.exe
