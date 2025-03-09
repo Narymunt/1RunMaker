@@ -1,0 +1,30 @@
+[core]
+    # Maksymalny poziom kompresji dla ogólnych operacji Git
+    compression = 9
+
+[pack]
+    # Maksymalny poziom kompresji przy pakowaniu obiektów Git
+    compression = 9
+    
+    # Użycie najbardziej efektywnej metody kompresji delta
+    deltaCacheSize = 2g
+    window = 250
+    threads = 128
+    windowMemory = 1g
+
+[repack]
+    # Włączenie używania delta-base offset dla jeszcze lepszej kompresji
+    useDeltaBaseOffset = true
+    
+    # Maksymalna kompresja podczas repackowania obiektów
+    compression = 9
+
+[transfer]
+    # Maksymalna kompresja podczas przesyłania danych między lokalnym a zdalnym repozytorium
+    compression = 9
+
+[gc]
+    # Przymusowa maksymalna kompresja podczas operacji garbage collection
+    auto = true
+    aggressiveWindow = 250
+    aggressiveDepth = 50
